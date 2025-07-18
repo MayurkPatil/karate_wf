@@ -12,12 +12,14 @@ autosplit: true
 retryOnFailure: false
 maxRetries: 2
 
-concurrency: 3
+concurrency: 1
 
 runtime:
   language: java
   version: 17
-
+  
+failFast:
+  maxNumberOfTests: 1
 
 #setting up server in the background
 background:
@@ -31,7 +33,7 @@ partialReports:
   type: json
   email:
     to:
-      - kamalnayan@lambdatest.com
+      - mayurp@lambdatest.com
 
 
 pre:
