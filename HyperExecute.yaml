@@ -20,6 +20,7 @@ runtime:
   
 failFast:
   maxNumberOfTests: 1
+  level: scenario
 
 #setting up server in the background
 background:
