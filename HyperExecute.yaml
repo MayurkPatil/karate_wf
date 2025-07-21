@@ -31,7 +31,7 @@ partialReports:
   type: json
   email:
     to:
-      - kamalnayan@lambdatest.com
+      - mayurp@lambdatest.com
 
 
 pre:
