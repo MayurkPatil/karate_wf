@@ -27,8 +27,8 @@ background:
 report: true
 partialReports:
   frameworkName: karate
-  location: target
-  type: html
+  location: target/karate-reports/
+  type: json
   email:
     to:
       - mayurp@lambdatest.com
