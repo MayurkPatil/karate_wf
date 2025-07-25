@@ -5,7 +5,7 @@ globalTimeout: 150
 testSuiteTimeout: 150
 testSuiteStep: 150
 
-runson: win
+runson: linux
 
 autosplit: true
 
