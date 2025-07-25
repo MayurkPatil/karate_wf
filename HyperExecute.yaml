@@ -21,7 +21,7 @@ runtime:
 
 #setting up server in the background
 background:
-  - mvn test `-Dtest=LocalRunner `-Dmaven.repo.local=m2 `-o || true
+  - mvn test -Dtest=LocalRunner -Dmaven.repo.local=m2 -o || true
 
 
 report: true
